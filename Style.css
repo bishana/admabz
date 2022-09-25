@@ -29,8 +29,8 @@
     color: white;
   }
   #banner{
-    
-    height: 570px;
+    width: 100vw;
+    height: 100vh;
     padding-left: 170px;
     padding-top:190px;
   }
@@ -44,13 +44,15 @@
   #div2{
     padding-top: 100px;
     text-align: center;
-    height: 650px;
+    width: 100vw;
+    height: 100vh;
   }
   #div3{
     background-color: #1F2021;
     
     color: white;
-    height: 650px;
+    width: 100vw;
+    height: 100vh;
   }
   #div3-1{
     padding-top: 200px;
@@ -64,6 +66,7 @@
   #div4{
     background-color: white;
     height: auto;
+    width: 100vw;
     padding-left: 10%;
     padding-right: 10%;
   }
@@ -119,7 +122,8 @@
     border-bottom-style: solid;
     border-bottom-color: #9095A0FF;
     border-bottom-width: 1px;
-    height: 660px;
+    width: 100vw;
+    height: 100vh;
   }
   #b1{
     width: 300px;
@@ -134,7 +138,8 @@
   #div6{
     padding-left: 50px;
     background-color: #1F2021;
-    height: 620px;
+    width: 100vw;
+    height: 100vh;
     width:100%;
   }
   #div6-1
