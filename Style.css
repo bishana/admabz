@@ -2,6 +2,18 @@
     box-sizing: border-box;
     font-family: 'Poppins';
   }
+  ::placeholder {
+    color: #fff;
+    opacity: 1; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: #fff;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+   color: #fff;
+  }
   #nav{
     
     height: 80px;
@@ -244,6 +256,7 @@
   border: 1px solid #666;
   text-align: center;
   color: white;
+  
 }
 
  #f1{
@@ -263,6 +276,10 @@
  }
  .nav-scroll{
   background-color: blue;
+
+ }
+ .link2 h3 a{
+  color: white;
 
  }
  
