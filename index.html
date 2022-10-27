@@ -3,25 +3,43 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>admabz</title>
+    <title>Bootstrap demo</title>
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
     <link rel="stylesheet" href="Style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">  
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
-     
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
     <!--Div 1-->
     <div class="container-fluid" id="div1">
         
-        <div class="row" id="nav" class=" navbar-fixed-top container-fluid " style="transition: 1S;position: fixed;">
-          <div class="col-4" id="n1" >
+        <div class="row" id="nav" class=" navbar-fixed-top container-fluid " class="navres" style="transition: 1S;position: fixed;">
+          
+          <div class="col-lg-4 col-sm-6" id="n1"  >
             <img src="ADM__1_-removebg-preview.png" id="logo">
+            <a href="javascript:void(0);" class="icon" class="active" style="margin-left: 65%;font-size: larger;color: white;" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+
+            <div class="topnav" id="myTopnav" style="background-color:black ;">
+              
+              <a href="#div1" >Home</a>
+              <a href="#div3">About Us</a>
+              <a href="#div4">Services</a>
+              <a href="#div5">Blogs</a>
+              <a href="#div6">Contact Us</a>
+              
+            </div>
+              
           </div>
-          <div class="col-5  n2" >
+          
+          <div class="col-lg-5  n2" id="myTopnav">
+            
             <ul class="nav ">
+              
               <li class="nav-item">
-                <a class="nav-link " href="#">Home </a>
+                <a class="nav-link " href="#div1">Home </a>
               </li>
               <li class="nav-item " >
                 <a class="nav-link " href="#div3">About Us</a>
@@ -35,27 +53,32 @@
               <li class="nav-item">
                 <a class="nav-link " href="#div6">Contact Us</a>
               </li>
+              
             </ul>
+            
           </div>
-          <div class="col link" style="padding-left: 80px;padding-bottom: 20%;">
-            <h style="font-size: 20px;" ><a href="https://www.facebook.com/admabz"><i class="bi bi-facebook"></i></a> &nbsp; <a href="https://www.instagram.com/admabzdigital/"><i class="bi bi-instagram"></i></a>
-              &nbsp; <a href="https://www.linkedin.com/company/admabz/"><i class="bi bi-linkedin"></i></a> &nbsp; <a href="https://twitter.com/admabz"><i class="bi bi-twitter"></i></a> &nbsp;
-               <a href="https://www.youtube.com/channel/UCdP4OHU-FzNlzQiojGi1jdw"><i class="bi bi-youtube"></i></a> &nbsp;
-              <a href="https://www.behance.net/admabz"><i class="bi bi-behance"></i></a></h>
-          </div>
+          <div class="col-lg-3 link" style="padding-left: 80px;padding-bottom: 20%;">
+            <h style="font-size: 20px;" ><a href="https://www.facebook.com/admabz" target="_blank"><i class="bi bi-facebook"></i></a> &nbsp; <a href="https://www.instagram.com/admabzdigital/" target="_blank"><i class="bi bi-instagram"></i></a>
+              &nbsp; <a href="https://www.linkedin.com/company/admabz/" target="_blank"><i class="bi bi-linkedin"></i></a> &nbsp; <a href="https://twitter.com/admabz" target="_blank"><i class="bi bi-twitter"></i></a> &nbsp;
+               <a href="https://www.youtube.com/channel/UCdP4OHU-FzNlzQiojGi1jdw" target="_blank"><i class="bi bi-youtube"></i></a> &nbsp;
+              <a href="https://www.behance.net/admabz" target="_blank"><i class="bi bi-behance"></i></a></h>
+              
+          </div >
+          
+          
         </div>
         
-        <div class="row" id="banner">
-          <div id="msg-container">
-            <div id="slider">
-              <div class="msg-col" style="color: white;">
+        <div class="row " id="banner">
+          <div id="stage" class="col-lg-7 col-sm-11">
+            
+              <div class="col-lg-7 col-sm-11 " style="color: white;padding-right: 4%;">
             
                 <h1 style="color: #1DD75BFF;font-size: 70px;"></h1><br>
                 <h1>CREATIVE HEADS & MARKETING MINDS</h1>
                 <p style="line-height: 28px;text-align: justify;">We are a young, gusty, creative, and committed creative & marketing agency in Kerala. We are an extraordinary team to provide you the “extra” you expect!
                 </p>
               </div>
-              <div class="msg-col" style="color: white;">
+              <div class="col-lg-7 col-sm-11" style="color: white;padding-right: 4%;">
                 <h1 style="color: #1DD75BFF;font-size: 70px; text-align: justify;"></h1><br>
                 <h1 style="text-align:left ;">Result Oriented Digital Marketing Agency in Kerala </h1>
                 <p style="line-height: 28px;text-align: justify;">We are one of the result driven digital marketing agencies in Kerala you can count on. With our indepth knowledge in the social media marketing services, we know 
@@ -63,13 +86,13 @@
 
                 </p>
               </div>
-              <div class="msg-col" style="color: white;">
+              <div class="col-lg-7 col-sm-11" style="color: white;padding-right: 4%;">
                 <h1 style="color: #1DD75BFF;font-size: 70px;"></h1><br>
                 <h1>CREATIVE HEADS &  -3</h1>
                 <p style="line-height: 28px;text-align: justify;">We are a young, gusty, creative, and committed creative & marketing agencyextraordinary team to provide you the “extra” you expect!
                 </p>
               </div>
-          </div>
+            
 
           </div>
           
@@ -89,7 +112,7 @@
     <div class="container-fluid" id="div2">
         <div class="row">
         
-        <div class="col-6" style="padding-left: 100px;padding-right: 35px;text-align: justify;" >
+        <div class="col-lg-6 col-sm-12" style="padding-left: 100px;padding-right: 35px;text-align: justify;" >
             <h1 style="  color: #171A1FFF; ">How we help your business
              </h1><br>
              <h4 style="  color: #171A1FFF;font-weight:bolder; ">THE ADMABZ TRILOGY</h4>
@@ -102,23 +125,21 @@
       </p>
         
         </div>
-        <div class="col-2">
+        <!--div class="col-2">
 
-        </div>
+        </div-->
         </div>
 
     </div>
-    <div class="container-fluid" id="div3">
+    <div class="container-fluid div3c" id="div3">
         <div class="row">
-          <div class="col-4" id="div3-2"><h1 style="font-size:58px ;padding-left: 60px;">Know Admabz</h1></div>
-          <div class="col-7" id="div3-3"><p style="font-size:14px;text-align: justify;">Admabz, conceived in the year 2022, is a progressive full-service creative & digital agency set out to help brands and businesses grow. We handle the A to Z requirements of your brand through a series of services from Branding to Website Development to Digital Marketing. 
+          <div class="col-lg-4 col-sm-12" id="div3-2"><h1 style="font-size:58px ;padding-left: 60px;">Know Admabz</h1></div>
+          <div class="col-lg-7 col-sm-12 div3c1" id="div3-3"><p style="font-size:14px;text-align: justify;">Admabz, conceived in the year 2022, is a progressive full-service creative & digital agency set out to help brands and businesses grow. We handle the A to Z requirements of your brand through a series of services from Branding to Website Development to Digital Marketing. 
           <br>Backed up by a team of dedicated young professionals, we are obsessed with finding opportunities to connect your brands with potential customers through a set of medium & channels.
           <br>The idea behind Admabz comes from the realization that tomorrow will be many times more advanced than today – brands & businesses need to be one step ahead of the coming update! With a collective experience of more than 10 years in various established creative & digital firms, we have created many impactful contents, brands identities, websites, and campaigns.
         </p>
         <details>
-          <summary>Vision<i class="bi bi-plus-circle" id="ic1"></i></summary><hr/>
-        
-        
+          <summary>Vision </i></summary><hr/>
           <div class="detailse-content">
             <p style="font-size:14px;text-align: justify;">In a world where branding & marketing agencies are classified 
               digital, creative, etc. – Admabz would love to stand for something a lot simpler. A CLIENT PARTNER THAT
@@ -127,7 +148,7 @@
           </div>
         </details><hr/>
         <details>
-        <summary>Mission <i class="bi bi-plus-circle" id="ic2"></i></summary><hr/>
+        <summary>Mission </i></summary><hr/>
         
         <div class="detailse-content">
           <p style="font-size:14px;text-align: justify;">As a vibrant team, we aim to make win-win collaborations with 
@@ -137,12 +158,12 @@
         </div>
       </details><hr/>
           </div>
-        </div>
+        </div><br><br><br>
     </div>
     <div class="container-fluid" id="div4">
       <div class="row">
         <div class="col-3"></div>
-        <div class="col-6" id="div4-1">
+        <div class="col-lg-6 col-sm-12" id="div4-1">
           <h2 style="font-size: 23px;">Our Services</h2>
           <hr style="width: 24%;  margin-left:38% ;height: 2px ;background-color: #1F2021;">
           <p style="font-size: 14px;">Team ADMABZ works as an extension of your team, than an agency. For this, we have different service departments to understand 
@@ -153,7 +174,7 @@
       </div>
       <div class="row" style="padding-top: 10px;">
 
-        <div class="col-4 c1" style="text-align: center;padding: 10px 50px;">
+        <div class="col-lg-4 col-sm-12 c1" style="text-align: center;padding: 10px 50px;">
             <div id="ser2" ></div>
           <h3 style="font-size: 18px;line-height:3px;">Social Media Marketing</h3>
           <h3 style="font-size: 15px;line-height: 25px;">Not a luxury, but a necessity</h3>
@@ -163,7 +184,7 @@
           </p><br>
           <button id="g1">Get Quote <i class="bi bi-arrow-right"></i></button>
           </div>
-          <div class="col-4 c1" style="text-align: center;padding: 10px 50px;">
+          <div class="col-lg-4 col-sm-12 c1" style="text-align: center;padding: 10px 50px;">
             <div id="ser1" ></div>
           <h3 style="font-size: 18px;line-height:3px;">Search Engine Optimization</h3>
           <h3 style="font-size: 15px;line-height: 25px;">Launch Into The SEO Space!</h3>
@@ -172,7 +193,7 @@
           </p><br>
           <button id="g1" class="g1">Get Quote <i class="bi bi-arrow-right"></i></button>
           </div>
-          <div class="col-4 c1" style="text-align: center;padding: 10px 50px;">
+          <div class="col-lg-4 col-sm-12 c1" style="text-align: center;padding: 10px 50px;">
             <div id="ser8" ></div>
           <h3 style="font-size: 18px;line-height:3px;">SEARCH ENGINE MARKETING</h3>
           <h3 style="font-size: 15px;line-height: 25px;">Let paid search pay off!</h3>
@@ -187,7 +208,7 @@
         
       <div class="row" style="padding-top: 20px;">
     
-        <div class="col-4 c1" style="text-align: center;padding:20px 50px;">
+        <div class="col-lg-4 col-sm-12 c1" style="text-align: center;padding:20px 50px;">
             <div id="ser6" ></div>
           <h3 style="font-size: 18px;line-height:3px;">BRANDING</h3>
           <h3 style="font-size: 15px;line-height: 25px;">Create your recognition right here!</h3>
@@ -198,7 +219,7 @@
           </p><br>
           <button id="g1">Get Quote <i class="bi bi-arrow-right"></i></button>
           </div>
-          <div class="col-4 c1" style="text-align: center;padding:20px 50px;">
+          <div class="col-lg-4 col-sm-12 c1" style="text-align: center;padding:20px 50px;">
             <div id="ser5" ></div>
           <h3 style="font-size: 18px;line-height:3px;">WEB DEVELOPMENT</h3>
           <h3 style="font-size: 15px;line-height: 25px;">For your online store-front!</h3>
@@ -208,7 +229,7 @@
           </p><br>
           <button id="g1">Get Quote <i class="bi bi-arrow-right"></i></button>
           </div>
-          <div class="col-4 c1" style="text-align: center;padding:20px 50px;">
+          <div class="col-lg-4 col-sm-12 c1" style="text-align: center;padding:20px 50px;">
             <div id="ser3" ></div>
           <h3 style="font-size: 18px;line-height:3px;">VIDEO ADVERTISING</h3>
           <h3 style="font-size: 15px;line-height: 25px;">Less Words, More Experience</h3>
@@ -222,7 +243,7 @@
     
     </div>
     <div class="row" style="padding-top: 20px;">
-        <div class="col-4 c1" style="text-align: center;padding:20px 50px;">
+        <div class="col-lg-4 col-sm-12 c1" style="text-align: center;padding:20px 50px;">
           <div id="ser4" ></div>
         <h3 style="font-size: 18px;line-height:3px;">CONTENT MARKETING</h3>
         <h3 style="font-size: 15px;line-height: 25px;">Blend information & Interest!</h3>
@@ -235,7 +256,7 @@
        
         
       
-      <div class="col-4 c1" style="text-align: center;padding: 20px 20px;">
+      <div class="col-lg-4 col-sm-12 c1" style="text-align: center;padding: 20px 20px;">
         <div id="ser7" ></div>
       <h3 style="font-size: 18px;line-height:3px;">E-COMMERCE WEBSITE DEVELOPMENT</h3>
       <h3 style="font-size: 15px;line-height: 25px;">High performance, High conversion</h3>
@@ -245,7 +266,7 @@
       </p><br>
       <button id="g1" class="g1">Get Quote <i class="bi bi-arrow-right"></i></button>
       </div>
-      <div class="col-4 c1" style="text-align: center;padding: 20px 20px;">
+      <div class="col-lg-4 col-sm-12 c1" style="text-align: center;padding: 20px 20px;">
         <div id="ser9" ></div>
       <h3 style="font-size: 18px;line-height:3px;">ONLINE REPUTATION MANAGEMENT</h3>
       <h3 style="font-size: 15px;line-height: 25px;">For your online faucet!</h3>
@@ -260,9 +281,9 @@
     </div>
     <div class="container-fluid" id="div5">
         <div class="row">
-          <div class="col-2"></div>
-        <div class="col-9" id="div5-1">
-          <h2 style="font-size: 23px;">OBLOG</h2>
+          
+        <div class="col-lg-9 col-sm-12" id="div5-1">
+          <h2 style="font-size: 23px;">BLOG</h2>
           <hr style="width: 24%;  margin-left:38% ;height: 2px ;background-color:white;">
           <p style="font-size: 14px;">There are so many wonderful things happening in the realm of branding, 
             advertising, websites and more. But there’s so little time. 
@@ -270,47 +291,47 @@
            </p>
            <p style="font-weight: bold;">Read, Repeat and Be Updated!</p>
         </div>
-        <div class="col-3"></div>
+        <div class="col-lg-3 col-sm-12"></div>
           </div>
-        <div class="row" style="padding-top: 50px;padding-left: 100px;text-align: center;color: white;">
-          <div class="col-4 " >
+        <div class="row" style="padding-top: 50px;padding-left: 5%;text-align: center;color: white;">
+          <div class="col-lg-4 col-sm-12 " >
             <div id="b1"></div><br>
             <div ><h3 style="font-size: 18px;">Small Business<br>Administration</h3></div>
           </div>
-          <div class="col-4" >
+          <div class="col-lg-4 col-sm-12" >
             <div id="b1"></div><br>
             <div><h3 style="font-size: 18px;">Small Business<br>Administration</h3></div>
           </div>
-          <div class="col-4" >
+          <div class="col-lg-4 col-sm-12" >
             <div id="b1"></div><br>
             <div><h3 style="font-size: 18px;">Small Business<br>Administration</h3></div>
           </div>
         </div>
         <div class="row" style="padding-top: 30px;">
-          <div class="col-12" style="text-align: center;padding-left: 10%;"><button id="b2">Read More <i class="bi bi-arrow-right"></i></button></div>
+          <div class="col-12" style="text-align: center;padding-left: 10%;"><button id="b2">Read More <i class="bi bi-arrow-right"></i></button></div><br><br><br>
         </div>
         
     </div>
     <div class="container-fluid" id="div6">
       <br><br>
       
-      <div class="row" id="div6-1" >
+      <div class="row set" id="div6-1"  >
         
-        <div class="col-lg-5 col-sm-12 col-md-12" style="padding-left: 80px;">
+        <div class="col-lg-5 col-sm-12 col-md-12  set1"  style="padding-left: 80px;">
           <div id="div6-1-2">
           <h3 style="font-size: 18px;">Do connect with us at</h3>
          <h3 style="font-size: 14px;"> <i class="bi bi-telephone"></i> &nbsp;+91 9526706315
          <br><br><i class="bi bi-envelope"></i> &nbsp; info@admabz.com </h3></div>
         <div id="div6-1-1" class="link2">
           <h3 style="font-size: 18px;">Social Media</h3>
-          <h3 style="font-size: 20px;color: white;"><a href="https://www.facebook.com/admabz"><i class="bi bi-facebook"></i></a> &nbsp;&nbsp; <a href="https://www.instagram.com/admabzdigital/"><i class="bi bi-instagram"></i></a>
-            &nbsp; &nbsp;  <a href="https://www.linkedin.com/company/admabz/"><i class="bi bi-linkedin"></i></a> &nbsp; &nbsp;  <a href="https://twitter.com/admabz"><i class="bi bi-twitter"></i></a> &nbsp; &nbsp; 
-             <a href="https://www.youtube.com/channel/UCdP4OHU-FzNlzQiojGi1jdw"><i class="bi bi-youtube"></i></a> &nbsp; &nbsp; 
-            <a href="https://www.behance.net/admabz"><i class="bi bi-behance"></i></a></h3>
+          <h3 style="font-size: 20px;color: white;"><a href="https://www.facebook.com/admabz" target="_blank"><i class="bi bi-facebook"></i></a> &nbsp;&nbsp; <a href="https://www.instagram.com/admabzdigital/" target="_blank"><i class="bi bi-instagram" target="_blank"></i></a>
+            &nbsp; &nbsp;  <a href="https://www.linkedin.com/company/admabz/" target="_blank"><i class="bi bi-linkedin"></i></a> &nbsp; &nbsp;  <a href="https://twitter.com/admabz" target="_blank"><i class="bi bi-twitter"></i></a> &nbsp; &nbsp; 
+             <a href="https://www.youtube.com/channel/UCdP4OHU-FzNlzQiojGi1jdw" target="_blank"><i class="bi bi-youtube"></i></a> &nbsp; &nbsp; 
+            <a href="https://www.behance.net/admabz" target="_blank"><i class="bi bi-behance"></i></a></h3>
         </div>
         </div>
-        <div class="col-lg-6 col-sm-12 col-md-12" style="padding-top: 70px;padding-left: 100px;"><br>
-          <h3 style="font-size:18px ;line-height: 2px;">There’s only one formula here — <b>DO IT RIGHT NOW!</b></h3>
+        <div class="col-lg-6 col-sm-12 col-md-12 set2"  style="padding-top: 70px;padding-left: 100px;"><br>
+          <h3 style="font-size:18px ;">There’s only one formula here — <b>DO IT RIGHT NOW!</b></h3>
           <h3 style="font-size: 16px;">We are eager to answer your queries</h3>
             <form id="ff" onsubmit="SendEmail(); reset(); return false;">
               <div class="row" id="f1">
@@ -333,12 +354,11 @@
               </div>
               <div class="row"id="f2" >
                 
-                <div class="col-lg-1 col-sm-2 col-md-2">
-                  <input type="text" style="width: 43px;height: 43px;" id="country" placeholder="+91 ">
+                <div class="col-lg-7 col-sm-12 col-md-2">
+                  <input type="text" style="width: 42px;height: 43px;" id="country" placeholder="+91 ">
+                  <input type="text" style="width: 222px;height: 43px;" id="PhoneNumber"  placeholder="Phone number">
                 </div>
-                <div class="col-lg-4 col-sm-8 col-md-8">
-                  <input type="text" style="width: 225px;height: 43px;" id="PhoneNumber"  placeholder="Phone number">
-                </div>
+                
               </div>
               <div class="row"id="f2" >
                 
@@ -361,7 +381,7 @@
             </form>
               
         </div>
-      </div>
+      </div><br><br><br>
       
       
     </div>
@@ -389,7 +409,7 @@
     Username : "info@admabz.com",
     Password : "F4E347FFA668BC834E7E35621B15E6309D8D",
     To : 'info@admabz.com',
-    From : document.getElementById("email").value,
+    From : 'ajumishahul456@gmail.com',
     Subject : "This is the subject",
     Body : "And this is the body"
 }).then(
@@ -398,6 +418,38 @@
 
       }
      </script>
+     <script>
+
+      window.addEventListener("DOMContentLoaded", function(e) {
+    
+        // Original JavaScript code by Chirp Internet: chirpinternet.eu
+        // Please acknowledge use of this code by including this header.
+    
+        var stage = document.getElementById("stage");
+        var fadeComplete = function(e) { stage.appendChild(arr[0]); };
+        var arr = stage.getElementsByTagName("div");
+        for(var i=0; i < arr.length; i++) {
+          arr[i].addEventListener("animationend", fadeComplete, false);
+        }
+    
+      }, false);
+    
+    </script>
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+          document.getElementById("nav").style.height = "auto";
+
+        } else {
+          document.getElementById("nav").style.height = "80px";
+
+          x.className = "topnav";
+        }
+        
+      }
+      </script>
      <script></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
