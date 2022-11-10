@@ -34,7 +34,7 @@
               
           </div>
           
-          <div class="col-lg-5  n2" id="myTopnav">
+          <div class="col-lg-5  n2" id="myTopnav" style="height: 50px">
             
             <ul class="nav ">
               
@@ -57,7 +57,7 @@
             </ul>
             
           </div>
-          <div class="col-lg-3 link" style="padding-left: 80px;padding-bottom: 20%;">
+          <div class="col-lg-3 link" style="padding-left: 80px;height: 50px;">
             <h style="font-size: 20px;" ><a href="https://www.facebook.com/admabz" target="_blank"><i class="bi bi-facebook"></i></a> &nbsp; <a href="https://www.instagram.com/admabzdigital/" target="_blank"><i class="bi bi-instagram"></i></a>
               &nbsp; <a href="https://www.linkedin.com/company/admabz/" target="_blank"><i class="bi bi-linkedin"></i></a> &nbsp; <a href="https://twitter.com/admabz" target="_blank"><i class="bi bi-twitter"></i></a> &nbsp;
                <a href="https://www.youtube.com/channel/UCdP4OHU-FzNlzQiojGi1jdw" target="_blank"><i class="bi bi-youtube"></i></a> &nbsp;
@@ -158,7 +158,7 @@
         </div>
       </details><hr/>
           </div>
-        </div><br><br><br>
+        </div>
     </div>
     <div class="container-fluid" id="div4">
       <div class="row">
@@ -279,10 +279,10 @@
       </div>
        <br><br>
     </div>
-    <div class="container-fluid" id="div5">
+    <div class="container-fluid div5c" id="div5">
         <div class="row">
           
-        <div class="col-lg-9 col-sm-12" id="div5-1">
+        <div class="col-lg-9 col-sm-12 " id="div5-1">
           <h2 style="font-size: 23px;">BLOG</h2>
           <hr style="width: 24%;  margin-left:38% ;height: 2px ;background-color:white;">
           <p style="font-size: 14px;">There are so many wonderful things happening in the realm of branding, 
@@ -308,7 +308,7 @@
           </div>
         </div>
         <div class="row" style="padding-top: 30px;">
-          <div class="col-12" style="text-align: center;padding-left: 10%;"><button id="b2">Read More <i class="bi bi-arrow-right"></i></button></div><br><br><br>
+          <div class="col-12" style="text-align: center;padding-left: 6%;"><button id="b2">Read More <i class="bi bi-arrow-right"></i></button></div><br><br><br>
         </div>
         
     </div>
@@ -333,37 +333,37 @@
         <div class="col-lg-6 col-sm-12 col-md-12 set2"  style="padding-top: 70px;padding-left: 100px;"><br>
           <h3 style="font-size:18px ;">There’s only one formula here — <b>DO IT RIGHT NOW!</b></h3>
           <h3 style="font-size: 16px;">We are eager to answer your queries</h3>
-            <form id="ff" onsubmit="SendEmail(); reset(); return false;">
+            <form id="submit-form" method="post" action="">
               <div class="row" id="f1">
                 
                 <div class="col-lg-6 col-sm-12 col-md-12">
-                  <input type="text" style="width: 270px;height: 43px;" id="Name" placeholder="Name">
+                  <input type="text" name="Name" style="width: 270px;height: 43px;" id="name" placeholder="Name">
                 </div>
                 <div class="col-lg-6 col-sm-12 col-md-12">
-                  <input type="text" style="width: 270px;height: 43px;" id="Designation" placeholder="Designation">
+                  <input type="text" name="Designation" style="width: 270px;height: 43px;" id="Designation" placeholder="Designation">
                 </div>
               </div>
               <div class="row" id="f2">
                 
                 <div class="col-lg-6 col-sm-12 col-md-12">
-                  <input type="text" style="width: 270px;height: 43px;" id="email" placeholder="Email">
+                  <input type="text" name="email" style="width: 270px;height: 43px;" id="email" placeholder="Email">
                 </div>
                 <div class="col-lg-6 col-sm-12 col-md-12">
-                  <input type="text" style="width: 270px;height: 43px;" id="CompanyWebsiteUrl" placeholder="Company website URL">
+                  <input type="text" name="CompanyWebsiteUrl" style="width: 270px;height: 43px;" id="CompanyWebsiteUrl" placeholder="Company website URL">
                 </div>
               </div>
               <div class="row"id="f2" >
                 
                 <div class="col-lg-7 col-sm-12 col-md-2">
-                  <input type="text" style="width: 42px;height: 43px;" id="country" placeholder="+91 ">
-                  <input type="text" style="width: 222px;height: 43px;" id="PhoneNumber"  placeholder="Phone number">
+                  <input type="text" name="country"style="width: 42px;height: 43px;" id="country" placeholder="+91 ">
+                  <input type="text" name="PhoneNumber"style="width: 222px;height: 43px;" id="PhoneNumber"  placeholder="Phone number">
                 </div>
                 
               </div>
               <div class="row"id="f2" >
                 
                 <div class="col-lg-6 col-sm-12 col-md-12">
-                  <textarea name="textarea" style="width:270px;height:130px;" id="Msg" placeholder="Please share what you want us to help "></textarea>
+                  <textarea name="Msg" style="width:270px;height:130px;" id="Msg" placeholder="Please share what you want us to help "></textarea>
                 </div>
                 <div class="col">
                   
@@ -398,6 +398,7 @@
       } else {
        
         document.getElementById("nav").style.background = "none";
+        
       }
     }
     </script>
@@ -405,9 +406,9 @@
      <script>
       function SendEmail(){
         Email.send({
-    Host : "smtp.elasticemail.com",
+    Host : "smtpout.secureserver.net",
     Username : "info@admabz.com",
-    Password : "F4E347FFA668BC834E7E35621B15E6309D8D",
+    Password : "sharook@123",
     To : 'info@admabz.com',
     From : 'ajumishahul456@gmail.com',
     Subject : "This is the subject",
@@ -450,6 +451,25 @@
         
       }
       </script>
+       <script>
+        $("#submit-form").submit((e)=>{
+            e.preventDefault()
+            $.ajax({
+                url:"https://script.google.com/macros/s/AKfycbytrRgVjoxuZdsONJvm2q8MKzKMaZ6ZA5yFr2u59dD7FyNlcl477KAfsY_bzXYA3-wz/exec",
+                data:$("#submit-form").serialize(),
+                method:"post",
+                success:function (response){
+                    alert("Form submitted successfully")
+                    window.location.reload()
+                    //window.location.href="https://google.com"
+                },
+                error:function (err){
+                    alert("Something Error")
+    
+                }
+            })
+        })
+    </script>
      <script></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
