@@ -330,7 +330,7 @@
         <div class="col-lg-6 col-sm-12 col-md-12 set2" id="contact-form" ><br>
           <h3 style="font-size:18px ;">There’s only one formula here — <b>DO IT RIGHT NOW!</b></h3>
           <h3 style="font-size: 16px;">We are eager to answer your queries</h3>
-            <form id="submit-form"  action="">
+            <form id="submit-form"  action="" autocomplete="off">
               <div class="row" id="f1">
                 
                 <div class="col-lg-6 col-sm-12 col-md-12">
@@ -343,17 +343,23 @@
               <div class="row" id="f2">
                 
                 <div class="col-lg-6 col-sm-12 col-md-12">
-                  <input type="text" name="email" style="width: 270px;height: 43px;" id="email" placeholder="Email" required>
+                  <input type="email" name="email" style="width: 270px;height: 43px;" id="email" placeholder="Email" required>
                 </div>
                 <div class="col-lg-6 col-sm-12 col-md-12">
-                  <input type="text" name="CompanyWebsiteUrl" style="width: 270px;height: 43px;" id="CompanyWebsiteUrl" placeholder="Company website URL">
+                  <input type="url" name="CompanyWebsiteUrl" style="width: 270px;height: 43px;" id="CompanyWebsiteUrl" placeholder="Company website URL">
                 </div>
               </div>
               <div class="row"id="f2" >
                 
                 <div class="col-lg-7 col-sm-12 col-md-2">
-                  <input type="text" name="country"style="width: 42px;height: 43px;" id="country" placeholder="+91 " required>
-                  <input type="text" name="PhoneNumber"style="width: 222px;height: 43px;" id="PhoneNumber"  placeholder="Phone number" required>
+                  <input type="tel" name="country"style="width: 42px;height: 43px;" id="country" placeholder="+91 " list="countryid" required>
+                  <datalist id="countryid">
+                    <option value="+91">
+                    <option value="+97">
+                    <option value="+1">
+                    <!-- ... -->
+                  </datalist>
+                  <input type="tel" name="PhoneNumber"style="width: 222px;height: 43px;" id="PhoneNumber"  placeholder="Phone number" required>
                 </div>
                 
               </div>
