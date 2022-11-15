@@ -334,7 +334,7 @@
               <div class="row" id="f1">
                 
                 <div class="col-lg-6 col-sm-12 col-md-12">
-                  <input type="text" name="Name" style="width: 270px;height: 43px;" id="name" placeholder="Name">
+                  <input type="text" name="Name" style="width: 270px;height: 43px;" id="name" placeholder="Name" required>
                 </div>
                 <div class="col-lg-6 col-sm-12 col-md-12">
                   <input type="text" name="Designation" style="width: 270px;height: 43px;" id="Designation" placeholder="Designation">
@@ -343,7 +343,7 @@
               <div class="row" id="f2">
                 
                 <div class="col-lg-6 col-sm-12 col-md-12">
-                  <input type="text" name="email" style="width: 270px;height: 43px;" id="email" placeholder="Email">
+                  <input type="text" name="email" style="width: 270px;height: 43px;" id="email" placeholder="Email" required>
                 </div>
                 <div class="col-lg-6 col-sm-12 col-md-12">
                   <input type="text" name="CompanyWebsiteUrl" style="width: 270px;height: 43px;" id="CompanyWebsiteUrl" placeholder="Company website URL">
@@ -352,8 +352,8 @@
               <div class="row"id="f2" >
                 
                 <div class="col-lg-7 col-sm-12 col-md-2">
-                  <input type="text" name="country"style="width: 42px;height: 43px;" id="country" placeholder="+91 ">
-                  <input type="text" name="PhoneNumber"style="width: 222px;height: 43px;" id="PhoneNumber"  placeholder="Phone number">
+                  <input type="text" name="country"style="width: 42px;height: 43px;" id="country" placeholder="+91 " required>
+                  <input type="text" name="PhoneNumber"style="width: 222px;height: 43px;" id="PhoneNumber"  placeholder="Phone number" required>
                 </div>
                 
               </div>
@@ -409,23 +409,7 @@
       }
     }
     </script>
-     <script src="https://smtpjs.com/v3/smtp.js"></script>
-     <script>
-      function SendEmail(){
-        Email.send({
-    Host : "smtpout.secureserver.net",
-    Username : "info@admabz.com",
-    Password : "sharook@123",
-    To : 'info@admabz.com',
-    From : 'ajumishahul456@gmail.com',
-    Subject : "This is the subject",
-    Body : "And this is the body"
-}).then(
-  message => alert(message)
-);
-
-      }
-     </script>
+     
      <script>
 
       window.addEventListener("DOMContentLoaded", function(e) {
