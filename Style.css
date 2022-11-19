@@ -37,9 +37,8 @@
      
   }
   #logo{
-    width: 100px;
-    height: 60px;
-    padding-bottom: 15px;
+    width: 20% !important;
+    margin-top: -15px;
     
   }
   #about-1{
@@ -602,6 +601,14 @@ input[type=tel],input[type=email],input[type=url]
   margin-bottom: 20px; 
   border-radius: 10px;
 }
+.service-image{
+  width: 30%;
+    margin-bottom: 0px;
+}
+.service-image-2{
+  width: 26%;
+    margin-bottom: 0px;
+}
 @media (min-width: 320px) and (max-width: 480px) {
   #logo{
     width: 80px;
@@ -678,5 +685,15 @@ margin-left: 0%;
  
   padding-top: 120px;
 }
-
+#logo{
+  width: 20% !important;
+  margin-top: 0px;
+  
+}
+#responsive a{
+margin-bottom: 10px;
+}
+.topnav a {
+  padding: 8px 16px;
+}
 }
