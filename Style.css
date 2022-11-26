@@ -661,8 +661,8 @@ input[type=tel],input[type=email],input[type=url]
   padding: 0px 20px;
 }
 #div5{
-  padding-left: 0px;
-  padding-right: 0px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 #div5-1{
 padding-top: 30px;
