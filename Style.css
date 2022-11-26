@@ -6,7 +6,9 @@
     color: #fff;
     opacity: 1; /* Firefox */
   }
-  
+  body{
+    overflow: hidden !important;
+  }
   :-ms-input-placeholder { /* Internet Explorer 10-11 */
    color: #fff;
   }
